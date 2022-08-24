@@ -33,7 +33,7 @@ namespace CarvedRock.Api
 
             var dbgView = (Configuration as IConfigurationRoot).GetDebugView();
             Log.ForContext("ConfigurationDebug", dbgView)
-            .Information("Configuration dump.");
+            .Information("Configuration dump1111111111111111111111.");
 
             services.AddScoped<IProductLogic, ProductLogic>();
             services.AddScoped<IQuickOrderLogic, QuickOrderLogic>();
