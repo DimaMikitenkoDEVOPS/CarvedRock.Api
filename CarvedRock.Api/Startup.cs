@@ -15,6 +15,8 @@ namespace CarvedRock.Api
     {
         public Startup(IConfiguration configuration)
         {
+            
+            
             Configuration = configuration;
         }
 
